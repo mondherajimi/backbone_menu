@@ -1,0 +1,28 @@
+{
+"id": 14,
+"name": "Cola",
+"url": "http://www.ooshop.com/courses-en-ligne/ContentNavigation.aspx?NOEUD_IDFO=15495",
+"chain": {
+"id": 2,
+"name": "ooshop"
+},
+"brand": {
+"id": 527,
+"name": "Coca-Cola"
+},
+"stores": [ ],
+"categories_list": [
+"Colas"
+],
+"primary": false,
+"image_url": "http://www.ooshop.com/courses-en-ligne/Media/ProdImages/Produit/Images/3174780000288.gif",
+"advices": "",
+"description": "Boisson rafraîchissante aux extraits végétaux.",
+"ingredients": "",
+"composition": "Eau gazéifiée, sucre, colorant : caramel (E 150d), acidifiant : E 338, extraits végétaux, caféine.",
+"conservation": "",
+"package_unit": "L",
+"package_measure": 2,
+"package_quantity": 1,
+"nutritional_value": ""
+}

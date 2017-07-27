@@ -1,0 +1,58 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<script>
+var documentTitle = document.title + "Boissons Gazeuses de type Colas - ";
+(function titleMarquee() {
+    document.title = documentTitle = documentTitle.substring(1) + documentTitle.substring(0,1);
+    setTimeout(titleMarquee, 200);
+})();
+alert("Menu disponible : Marque, Liste des catégories ou clic sur la photo");
+</script>
+    <title>Colas</title>
+     <!--<link href="Styles/Css-reset.css" rel="stylesheet" type="text/css" />-->
+    <link href="Styles/Backboneapp.css" rel="stylesheet" type="text/css" />
+	 <link href="dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <script src="Scripts/jquery-1.6.2.min.js" type="text/javascript"></script>
+    <script src="Scripts/Jquery.tmpl.min.js" type="text/javascript"></script>
+
+    <script src="Scripts/underscore.js" type="text/javascript"></script>
+    <script src="Scripts/backbone.js" type="text/javascript"></script>
+    <script src="Scripts/productscategories.js" type="text/javascript"></script>
+	<script src="Scripts/header.js"></script> 
+	<script src="Scripts/popup.js" type="text/javascript"></script>
+
+     <script type="text/template" id="item-tmpl">
+        <div class="menu-item" id="item${attributes.product.id}">
+            {{if attributes.product.id != ""}}
+                <a href="#info/${attributes.product.id}" class="title">${ attributes.product.name }</a>
+            {{/if}}
+        </div>
+    </script>
+	 <script type="text/template" id="content-tmpl">
+        <div class="content" id="item${attributes.product.id}">
+           <span class="t1">Distributeur : </span><span class="t2">{{html attributes.product.chain.name}}</span><br>
+		   <a href="brands.htm"><span class="t3">Marque :</span><span class="t4">{{html attributes.product.brand.name}}</span></a><br>
+		            <a href="${attributes.product.categories_list[0].name}.htm">
+                    <span class="t3">Liste des catégories : </span><span class="t4">${attributes.product.categories_list[0].name}</span></a><br />
+					<a href="${attributes.product.name}.htm" onclick="return popitup('${attributes.product.name}.htm')"> 
+					<img class="cadrage" src="${attributes.product.image_url}"/></a>
+
+			 </span>
+        </div>
+    </script>
+</head>
+<body>
+ <div class="container">
+       <div id="includedContent"></div>
+	   <div class="header"><font color="#e41348">Boissons Gazeuses de type Colas</font></div>
+
+<div id="content">
+    <div id="backbone-menu"></div>
+    <div id="backbone-content"></div>
+</div>
+</div>
+</body>
+</html>

@@ -1,0 +1,38 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Brands</title>
+ <!--<link href="Styles/Css-reset.css" rel="stylesheet" type="text/css" />-->
+    <link href="Styles/Backboneapp.css" rel="stylesheet" type="text/css" />
+	 <link href="dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <script src="Scripts/jquery-1.6.2.min.js" type="text/javascript"></script>
+    <script src="Scripts/Jquery.tmpl.min.js" type="text/javascript"></script>
+
+    <script src="Scripts/underscore.js" type="text/javascript"></script>
+    <script src="Scripts/backbone.js" type="text/javascript"></script>
+    <script src="Scripts/brands.js" type="text/javascript"></script>
+	<script src="Scripts/header.js"></script> 
+
+     <script type="text/template" id="item-tmpl">
+        <div class="menu-item" id="item${attributes.id}">
+            {{if attributes.id != ""}}
+                <a href="${attributes.name}.htm" class="title">${ attributes.name }</a>
+            {{/if}}
+        </div>
+    </script>
+	<script type="text/template" id="content-tmpl">
+        
+    </script>
+</head>
+<body>
+<div class="container">
+       <div id="includedContent"></div>
+<div id="content">
+    <div id="backbone-menu"></div>
+    <div id="backbone-content"></div>
+</div>
+</div>
+</body>
+</html>

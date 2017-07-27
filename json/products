@@ -1,0 +1,170 @@
+[
+{
+"product": {
+"id": 6,
+"name": "Bouteille magnum, boisson aux extraits végétaux",
+"chain": {
+"id": 1,
+"name": "monoprix"
+},
+"brand": {
+"id": 527,
+"name": "Coca-Cola"
+},
+"stores": [ ],
+"categories_list": [
+{
+"id": 132,
+"name": "Colas"
+}
+],
+"primary": false,
+"image_url": "http://static.monoprix.fr/assets/ctx/896120606/static/photos/65/45/86/g-654586.jpg",
+"package_unit": "L",
+"package_measure": 2,
+"package_quantity": 1
+}
+},
+{
+"product": {
+"id": 5,
+"name": "Cola",
+"chain": {
+"id": 2,
+"name": "ooshop"
+},
+"brand": {
+"id": 527,
+"name": "Coca-Cola"
+},
+"stores": [ ],
+"categories_list": [
+{
+"id": 132,
+"name": "Colas"
+}
+],
+"primary": false,
+"image_url": "http://www.ooshop.com/courses-en-ligne/Media/ProdImages/Produit/Images/3174780000288.gif",
+"package_unit": "L",
+"package_measure": 2,
+"package_quantity": 1
+}
+},
+{
+"product": {
+"id": 4,
+"name": "Boisson gazeuse",
+"chain": {
+"id": 3,
+"name": "auchandirect"
+},
+"brand": {
+"id": 527,
+"name": "Coca-Cola"
+},
+"stores": [ ],
+"categories_list": [
+{
+"id": 132,
+"name": "Colas"
+}
+],
+"primary": true,
+"image_url": "http://www.auchandirect.fr/static/images/products/detail/1401.jpg",
+"package_unit": "L",
+"package_measure": 2,
+"package_quantity": 1
+}
+},
+{
+"product": {
+"id": 3,
+"name": "Schweppes lemon",
+"chain": {
+"id": 1,
+"name": "monoprix"
+},
+"brand": {
+"id": 1259,
+"name": "Schweppes"
+},
+"stores": [ ],
+"categories_list": [
+{
+"id": 133,
+"name": "Aux Fruits"
+},
+{
+"id": 134,
+"name": "Tonics & Limonades"
+}
+],
+"primary": false,
+"image_url": "http://docs.monoprix.fr/assets/ctx/3059114991/static/photos/13/43/g-1343.jpg",
+"package_unit": "L",
+"package_measure": 1.5,
+"package_quantity": 1
+}
+},
+{
+"product": {
+"id": 2,
+"name": "Boisson gazeuse Lemon",
+"chain": {
+"id": 3,
+"name": "auchandirect"
+},
+"brand": {
+"id": 1259,
+"name": "Schweppes"
+},
+"stores": [ ],
+"categories_list": [
+{
+"id": 134,
+"name": "Tonics & Limonades"
+},
+{
+"id": 133,
+"name": "Aux Fruits"
+}
+],
+"primary": true,
+"image_url": "http://www.auchandirect.fr/static/images/products/detail/32760.jpg",
+"package_unit": "L",
+"package_measure": 1.5,
+"package_quantity": 1
+}
+},
+{
+"product": {
+"id": 1,
+"name": "SCHWEPPES ZÉRO LEMON",
+"chain": {
+"id": 2,
+"name": "ooshop"
+},
+"brand": {
+"id": 1259,
+"name": "Schweppes"
+},
+"stores": [ ],
+"categories_list": [
+{
+"id": 134,
+"name": "Tonics & Limonades"
+},
+{
+"id": 133,
+"name": "Aux Fruits"
+}
+],
+"primary": true,
+"image_url": "http://www.ooshop.com/courses-en-ligne/Media/ProdImages/Produit/Images/3124480002129.gif",
+"package_unit": "L",
+"package_measure": 1.5,
+"package_quantity": 1
+}
+}
+]

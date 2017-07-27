@@ -1,0 +1,115 @@
+﻿#menu
+{
+    display: none;
+}
+#content
+{
+    height:216px;
+    width: 700px;
+    position: absolute;
+    left: 50%;
+    top: 30%;
+    margin-left: -350px;
+    margin-top:  -108px;
+}
+body
+{
+    font-family : Arial,Helvetica,sans-serif;
+    color: Black;
+}
+#backbone-menu
+{
+    float: left;
+    width: 40%;
+}
+#backbone-content
+{
+    float: left;
+    width: 60%;
+}
+#backbone-content .content
+{
+    padding: 5px;
+     
+    color: #858585;
+    border: 1px solid #e7e3e3;
+	border-radius: 7px;
+}
+.menu-item
+{
+    border: 1px solid #e7e3e3;
+	border-radius: 7px;
+}
+
+.clearer
+{
+    clear: both;
+}
+.menu-item .title:hover
+{
+    background-color: #e7e3e3;
+	border-radius: 7px;
+}
+.menu-item.active
+{
+    border: 1px solid #e41348;
+}
+.menu-item.active .title
+{
+    background-color: #e41348;/*5caee4 e6007d*/
+    color: White;
+    border-radius: 7px;
+}
+
+.menu-item .title
+{
+    font: Arial,Helvetica,sans-serif;
+    font-size: 16px;
+    text-transform: capitalize;
+    color: #858585;
+    display: block;
+    height: 100%;
+    padding: 10px;
+    text-decoration: none;
+	font-weight: bold;
+	text-transform:uppercase;
+}
+.item .content
+{
+    display: none;
+}
+
+.t1 {font-weight: bold;color: #e41348; }
+.t2 {color: #540350;}
+.t3 {font-weight: bold;color: #e41348; }
+.t4 {color: #540350;}
+.t3:hover {color: #ffffff;background-color: #e41348;border-radius: 4px; }
+.t4:hover {color: #ffffff;background-color: #540350;border-radius: 4px; }
+.cadrage {
+  border: 2px solid #e7e3e3;
+  border-radius: 7px;
+} 
+.cadrage:hover {
+  background-color: #fff999;
+} 
+.header,
+.marketing,
+.footer {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+/* Custom page header */
+.header {
+  border-bottom: 1px solid #e5e5e5;
+}
+/* Make the masthead heading the same height as the navigation */
+.header h3 {
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 40px;
+  padding-bottom: 1px;
+}
+.header img {
+  padding-bottom: 5px;
+}

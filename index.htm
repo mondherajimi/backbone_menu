@@ -1,0 +1,54 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<script>
+alert("Menu disponible : Boissons -> Boissons Gazeuses ou Colas");
+</script>
+    <title>Catégories</title>
+     <!--<link href="Styles/Css-reset.css" rel="stylesheet" type="text/css" />-->
+    <link href="Styles/Backboneapp.css" rel="stylesheet" type="text/css" />
+	 <link href="dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <script src="Scripts/jquery-1.6.2.min.js" type="text/javascript"></script>
+    <script src="Scripts/Jquery.tmpl.min.js" type="text/javascript"></script>
+
+    <script src="Scripts/underscore.js" type="text/javascript"></script>
+    <script src="Scripts/backbone.js" type="text/javascript"></script>
+    <script src="Scripts/categories.js" type="text/javascript"></script>
+    <script src="Scripts/header.js"></script> 
+
+    <script type="text/template" id="item-tmpl">
+        <div class="menu-item" id="item${attributes.id}">
+            {{if attributes.slug != ""}}
+                <a href="#info/${attributes.id}" class="title">${ attributes.name }</a>
+            {{/if}}
+        </div>
+    </script>
+    <script type="text/template" id="content-tmpl">
+        <div class="content" id="item${attributes.id}">
+           <!--{{html attributes.children[0].slug}}-->
+			{{each attributes.children}}
+			<a href="${this.slug}.htm"><span class="t3">${this.name}:</span></a>
+            <a href="${this.children[0].name}.htm"><span class="t4">${this.children[0].name}</span></a> -
+			<a href="${this.children[1].name}.htm"><span class="t4">${this.children[1].name}</span></a>{{if this.children.length>2}} - 
+			<a href="${this.children[2].name}.htm"><span class="t4">${this.children[2].name}</span></a>{{/if}}<br />
+                {{/each}} 
+			<!-- <br><img src="img/new_logo.gif"></img>-->
+        </div>
+    </script>
+</head>
+<body>
+
+ <div class="container">
+       <div id="includedContent"></div>
+	   <div id="header" class="header"></div>
+ <div id="content">
+    <div id="backbone-menu"></div>
+    <div id="backbone-content"></div>
+</div>
+
+    </div> <!-- /container -->
+	
+</body>
+</html>

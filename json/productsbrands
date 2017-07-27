@@ -1,0 +1,74 @@
+[
+{
+"id": 3,
+"name": "Bouteille magnum, boisson aux extraits végétaux",
+"chain": {
+"id": 1,
+"name": "monoprix"
+},
+"brand": {
+"id": 527,
+"name": "Coca-Cola"
+},
+"stores": [ ],
+"categories_list": [
+{
+"id": 132,
+"name": "Colas"
+}
+],
+"primary": false,
+"image_url": "http://static.monoprix.fr/assets/ctx/896120606/static/photos/65/45/86/g-654586.jpg",
+"package_unit": "L",
+"package_measure": 2,
+"package_quantity": 1
+},
+{
+"id": 2,
+"name": "Cola",
+"chain": {
+"id": 2,
+"name": "ooshop"
+},
+"brand": {
+"id": 527,
+"name": "Coca-Cola"
+},
+"stores": [ ],
+"categories_list": [
+{
+"id": 132,
+"name": "Colas"
+}
+],
+"primary": false,
+"image_url": "http://www.ooshop.com/courses-en-ligne/Media/ProdImages/Produit/Images/3174780000288.gif",
+"package_unit": "L",
+"package_measure": 2,
+"package_quantity": 1
+},
+{
+"id": 1,
+"name": "Boisson gazeuse",
+"chain": {
+"id": 3,
+"name": "auchandirect"
+},
+"brand": {
+"id": 527,
+"name": "Coca-Cola"
+},
+"stores": [ ],
+"categories_list": [
+{
+"id": 132,
+"name": "Colas"
+}
+],
+"primary": true,
+"image_url": "http://www.auchandirect.fr/static/images/products/detail/1401.jpg",
+"package_unit": "L",
+"package_measure": 2,
+"package_quantity": 1
+}
+]
