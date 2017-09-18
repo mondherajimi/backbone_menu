@@ -113,3 +113,5 @@ body
 .header img {
   padding-bottom: 5px;
 }
+
+ul,ol{font-size: 25px;}
